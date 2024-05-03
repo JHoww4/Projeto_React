@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+/* Letreiro */
+.Letreiro {
+  overflow: hidden;
+  height: 50px; /* Altura do letreiro */
+  width: 100%; /* Largura total */
+}
+
+.Letreiro div {
+  display: inline-block;
+  padding: 0 20px; /* Espaçamento horizontal */
+  opacity: 0; /* Começa invisível */
+  white-space: nowrap; /* Impede que o texto quebre */
+  transition: opacity 1s ease; /* Transição suave de opacidade */
+}
+
+.Letreiro div.active {
+  opacity: 1; /* Torna o item visível */
+}

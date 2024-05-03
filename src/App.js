@@ -6,6 +6,9 @@ import Letreiro from "./Pages/Letreiro";
 import Home from "./Pages/Home";
 
 function App() {
+  // Definicão dos items que serão passados para o Letreiro
+  const items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
+
   return (
     <Router>
       <ul>
@@ -16,10 +19,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Relogio" element={<Relogio />} />
-        <Route path="/Letreiro" element={<Letreiro />} />
+        {/* Passar os items para o Letreiro */}
+        <Route path="/Letreiro" element={<Letreiro items={items} />} />
       </Routes>
     </Router>
   );
 }
-
 export default App;
