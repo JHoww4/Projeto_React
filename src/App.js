@@ -1,7 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"; // Certifique-se de importar corretamente
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
-// Importe seus componentes aqui
 import Relogio from "./Pages/Relogio";
 import Letreiro from "./Pages/Letreiro";
 import Home from "./Pages/Home";
