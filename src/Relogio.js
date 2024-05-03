@@ -21,10 +21,11 @@ class Relogio extends Component {
 
   render() {
     const { time } = this.state;
+    const formattedDate = `${time.toLocaleDateString()} ${time.toLocaleTimeString()}`;
     return (
       <div>
         <h2>Relógio Digital</h2>
-        <p>Agora é {time.toLocaleTimeString()}.</p>
+        <p>Agora é {formattedDate}.</p>
       </div>
     );
   }
