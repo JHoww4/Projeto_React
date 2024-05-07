@@ -1,11 +1,21 @@
-function Home(){
-    return (
-        <div>
-            <h1>Home</h1>
-            <p>Conteudo da pagina</p>
-        </div> 
+import React from "react";
+import { Link } from "react-router-dom";
 
-    )
-
-}
-export default Home
+const Home = () => {
+  return (
+    <div>
+      <h1>Página Inicial</h1>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/Atividade1">Atividade 1</Link>
+          </li>
+          {/* <li>
+            <Link to="/Atividade2.js">Atividade 2</Link>
+          </li> */}
+        </ul>
+      </nav>
+    </div>
+  );
+};
+export default Home;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../App.css'; // Arquivo CSS para estilização
+import '../../App.css'; 
 
 const Letreiro = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,7 +7,7 @@ const Letreiro = ({ items }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
-    }, 3000); // Intervalo de 3 segundos (3000 milissegundos)
+    }, 2500); // Intervalo de 2,5 segundos (2500 milissegundos)
     
     return () => clearInterval(interval);
   }, [items]);
