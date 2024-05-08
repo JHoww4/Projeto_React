@@ -55,3 +55,25 @@
 .Letreiro div.active {
   opacity: 1; /* Torna o item visível */
 }
+
+/* Contatdor de pesoas  */
+.contador-container {
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.pessoa-container {
+  text-align: center;
+}
+
+.icone-pessoa {
+  width: 100px;
+}
+
+.resetar-btn {
+  display: block;
+  margin: 0 auto;
+}

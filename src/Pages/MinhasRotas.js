@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import Atividade1 from "./Atividade1/Atividade1"; 
+import Atividade1 from "./Atividade1/Atividade1";
+import Atividade2 from "./Atividade2/Atividade2"; 
 
 export default function MinhasRotas(){
     return(
@@ -8,6 +9,7 @@ export default function MinhasRotas(){
             <Routes>
                 <Route path="/" element={<Home />} /> 
                 <Route path="/Atividade1" element={<Atividade1 />} /> 
+                <Route path="/Atividade1" element={<Atividade2 />} /> 
             </Routes>
         </BrowserRouter>
     )

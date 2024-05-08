@@ -6,7 +6,7 @@ import Relogio from "./Relogio";
 
 export default function Atividade1(){
     // Exemplo de dados para o Letreiro
-    const items = ["Item 1", "Item 2", "Item 3"];
+    const items = ["Conheça", "A", "Fatec"];
 
     return(
         <div>

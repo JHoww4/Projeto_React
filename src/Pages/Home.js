@@ -10,9 +10,9 @@ const Home = () => {
           <li>
             <Link to="/Atividade1">Atividade 1</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/Atividade2.js">Atividade 2</Link>
-          </li> */}
+          </li> 
         </ul>
       </nav>
     </div>
