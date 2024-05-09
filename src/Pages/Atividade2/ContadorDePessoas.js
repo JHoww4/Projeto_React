@@ -1,3 +1,5 @@
+import imgHomens from './homem.png'
+import imgMulher from './mulher.png'
 import React, { useState } from 'react';
 import '../../App.css';
 
@@ -20,13 +22,13 @@ const ContadorDePessoas = () => {
     <div className="contador-container">
       <h2>Contador de Pessoas</h2>
       <div className="pessoa-container">
-        <img src="homem.png" alt="Homem" className="icone-pessoa" />
+        <img src={imgHomens} alt="Homem" className="icone-pessoa" />
         <button onClick={handleAdicionarHomem}>+</button>
         <button onClick={handleRemoverHomem}>-</button>
         <p>Homens: {homens}</p>
       </div>
       <div className="pessoa-container">
-        <img src="mulher.png" alt="Mulher" className="icone-pessoa" />
+        <img src={imgMulher} alt="Mulher" className="icone-pessoa" />
         <button onClick={handleAdicionarMulher}>+</button>
         <button onClick={handleRemoverMulher}>-</button>
         <p>Mulheres: {mulheres}</p>
