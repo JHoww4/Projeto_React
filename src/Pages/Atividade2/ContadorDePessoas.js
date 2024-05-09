@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../App.css'; // Importe os estilos CSS
+import '../../App.css';
 
 const ContadorDePessoas = () => {
   const [homens, setHomens] = useState(0);
@@ -36,5 +36,4 @@ const ContadorDePessoas = () => {
     </div>
   );
 };
-
 export default ContadorDePessoas;

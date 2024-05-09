@@ -11,7 +11,7 @@ const Home = () => {
             <Link to="/Atividade1">Atividade 1</Link>
           </li>
           <li>
-            <Link to="/Atividade2.js">Atividade 2</Link>
+            <Link to="/Atividade2">Atividade 2</Link>
           </li> 
         </ul>
       </nav>
