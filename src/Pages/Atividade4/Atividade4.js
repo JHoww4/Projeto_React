@@ -9,6 +9,10 @@ import Form1 from './funcoes/Form1';
 import Form2 from './funcoes/Form2';
 import Counter1 from './funcoes/Counter1';
 import Counter2 from './funcoes/Counter2';
+import MovingDot from './funcoes/MovingDot';
+import Form3 from './funcoes/Form3';
+import Form4 from './funcoes/Form4';
+import List1 from './funcoes/List1';
 export default function Atividade4(){
     return(
         <>
@@ -27,9 +31,18 @@ export default function Atividade4(){
             <Form1 />
             <hr />
             <Form2 />
-            <hr/>
+            <hr />
             <Counter1 />
             <Counter2 />
+            <hr />
+            <MovingDot />
+            <hr />
+            <Form3 />
+            <hr />
+            <Form4 />
+            <hr />
+            <List1 />
+            
             <br />
             <hr />
             <Link to="/">Retornar para página inicial</Link>
