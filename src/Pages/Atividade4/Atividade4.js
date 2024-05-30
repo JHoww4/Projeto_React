@@ -16,6 +16,7 @@ import List1 from './funcoes/List1';
 import List2 from './funcoes/List2';
 import ShapeEditor from './funcoes/ShapeEditor';
 import CounterLast from './funcoes/CounterLast';
+import List3 from './funcoes/List3';
 export default function Atividade4(){
     return(
         <>
@@ -51,6 +52,8 @@ export default function Atividade4(){
             <ShapeEditor />
             <hr />
             <CounterLast />
+            <hr />
+            <List3 />
             <br />
             <hr />
             <Link to="/">Retornar para página inicial</Link>
