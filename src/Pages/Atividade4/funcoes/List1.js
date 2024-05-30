@@ -13,7 +13,6 @@ export default function List1() {
     ]);
     setName("");  // Clear the input after adding
   }
-
   return (
     <>
       <h1>Inspiring Sculptors:</h1>

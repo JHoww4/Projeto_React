@@ -13,6 +13,9 @@ import MovingDot from './funcoes/MovingDot';
 import Form3 from './funcoes/Form3';
 import Form4 from './funcoes/Form4';
 import List1 from './funcoes/List1';
+import List2 from './funcoes/List2';
+import ShapeEditor from './funcoes/ShapeEditor';
+import CounterLast from './funcoes/CounterLast';
 export default function Atividade4(){
     return(
         <>
@@ -42,7 +45,12 @@ export default function Atividade4(){
             <Form4 />
             <hr />
             <List1 />
-            
+            <hr />
+            <List2 />
+            <hr />
+            <ShapeEditor />
+            <hr />
+            <CounterLast />
             <br />
             <hr />
             <Link to="/">Retornar para página inicial</Link>
