@@ -1,0 +1,33 @@
+.divCharacterCounter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+.divInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 24vw;
+  height: 2vh;
+  border-radius: 8px;
+  padding: 8px;
+}
+.divCounTotal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divCounTotal div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 2%;
+}
+.divCounTotal p {
+ font-size: 24px;
+}
